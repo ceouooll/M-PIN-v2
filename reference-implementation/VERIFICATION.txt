@@ -1,0 +1,25 @@
+M-PIN Reference Implementation v0.1b Verified
+Verification Record
+==============================================
+
+Project-owner Windows execution verification date: 2026-09-16
+
+Demo execution: PASS
+Reference Conformance Tests: 9/9 PASS
+
+Verified test set:
+
+1. Current-State-Only / no mandatory history
+2. Disconnect is not Save
+3. First Friend Folder creation requires Owner approval
+4. Friend Folder Isolation
+5. One Active Friend
+6. Owner Authority required
+7. Owner SAVE commits Current State
+8. Save requires Owner intent
+9. Stale write rejected
+
+Scope note:
+This verification covers only the executable reference behaviors included in this package.
+It is not a claim of production readiness, full security implementation, M-PIN Hub completion,
+network protocol completion, encryption/key-management completion, or enterprise deployment readiness.
