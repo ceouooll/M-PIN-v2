@@ -1,0 +1,32 @@
+M-PIN Reference Implementation v0.1b Verified
+==============================================
+
+Windows에서는 설치형 EXE가 아니라 Python Reference Implementation입니다.
+
+가장 쉬운 실행 방법:
+
+1. 01_RUN_DEMO.bat 를 더블클릭합니다.
+2. 실행 결과를 확인합니다.
+3. 창은 자동으로 닫히지 않습니다. 아무 키나 누르면 종료됩니다.
+
+테스트를 확인하려면:
+
+- 02_RUN_TESTS.bat 를 더블클릭합니다.
+
+외부 Python 패키지는 필요하지 않습니다.
+Python 3.11 이상만 있으면 됩니다.
+
+이 버전은 M-PIN v2의 핵심 동작만 검증하기 위한 Reference Implementation이며,
+Windows 설치형 상용 프로그램이나 M-PIN Hub가 아닙니다.
+
+검증 기록
+---------
+
+Windows 환경에서 직접 실행 검증 완료 (2026-09-16).
+
+- Demo 실행: PASS
+- Reference Conformance Tests: 9/9 PASS
+
+이 결과는 현재 Reference Implementation의 제한된 범위만 검증합니다.
+상용 M-PIN Hub, 전체 보안 구현, 네트워크 계층, 암호화/키 관리 또는
+완성된 M-PIN 제품이 구현되었다는 의미는 아닙니다.

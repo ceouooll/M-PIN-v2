@@ -1,0 +1,8 @@
+[project]
+name = "mpin-reference"
+version = "0.1.0"
+description = "Minimal executable reference implementation of core M-PIN v2 lifecycle semantics"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["mpin_ref"]
