@@ -17,6 +17,23 @@ Owner-controlled persistence model.
 > **Friend provides the service. Owner owns the data. M-PIN preserves
 > the ownership boundary.**
 
+## Reference Implementation
+
+A minimal executable reference for the frozen M-PIN v2 lifecycle is available here:
+
+**[M-PIN Reference Implementation v0.1b Verified](./reference-implementation/)**
+
+- Verified on Windows
+- Demo execution: PASS
+- Reference Conformance Tests: 9/9 PASS
+- Python 3.11+
+- No third-party packages required
+
+This Reference Implementation demonstrates the core lifecycle:
+
+`Connect → Load → Runtime → Owner SAVE → Validate → Atomic Commit → Disconnect`
+
+It is not a production M-PIN Hub or a complete security implementation.
 ------------------------------------------------------------------------
 
 ## M-PIN v2.0
