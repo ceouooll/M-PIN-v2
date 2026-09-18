@@ -311,8 +311,8 @@ is demonstrated.
 M-PIN v1.0 was developed and documented before the v2 work. M-PIN v1.0
 Owner-reported broader design period: approximately May–August 2026.
 
-Earliest surviving reconstructed record: June 20, 2026. M-PIN v1.0
-public archive: August 20, 2026. M-PIN v2.0 was developed after the v1
+Earliest surviving reconstructed record: June 20, 2026. M-PIN v1 repository created / initial archive committed: August 18, 2026.
+M-PIN v2.0 was developed after the v1
 design freeze to formalize the architecture into a more
 implementation-oriented specification. External systems published or
 reviewed after the v1 freeze may be discussed as comparative references,
