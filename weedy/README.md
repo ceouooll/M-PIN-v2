@@ -6,7 +6,7 @@ WEEDY is a concept-stage home AI companion reference project for M-PIN.
 
 ## WEEDY V1 Concept
 
-![WEEDY V1 Concept](./weedy_v1_concept.png)
+![WEEDY V1 Concept](./weedy_v1_concept.png?v=2)
 
 > Concept visualization — not a production device. Final hardware, modules, dimensions, and implementation may change.
 
