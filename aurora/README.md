@@ -12,6 +12,15 @@ AURORA is a project name, not a commercial product name.
 
 ---
 
+## AURORA V1 Concept
+
+![AURORA V1 Concept](./aurora_v1_concept.png)
+
+> **Concept render — not a production device.**  
+> This image is a high-level visual reference for the public AURORA V1 concept. Final dimensions, materials, internal architecture, manufacturing methods, and production design may change.
+
+---
+
 ## Purpose
 
 M-PIN proposes that persistent personal state should remain under the Owner's control rather than being permanently bound to a single AI platform, assistant, device, or service.
@@ -24,17 +33,17 @@ A ring is especially interesting because it can remain physically with the Owner
 
 ## Initial Reference — V1
 
-The first AURORA reference intentionally focuses on only two functions.
+AURORA V1 intentionally focuses on only two primary functions.
 
 ### Incoming Call Awareness
 
-When the paired smartphone receives a call, AURORA provides a tactile vibration alert.
+When the paired smartphone receives a call, AURORA provides a tactile vibration alert and may provide a subtle emerald light signal.
 
 The purpose is to help the Owner notice incoming calls even when the smartphone is in silent or vibration mode.
 
 ### Phone Separation Awareness
 
-When the paired smartphone moves beyond an appropriate Bluetooth proximity threshold, or the connection is lost, AURORA provides a distinct vibration alert.
+When the paired smartphone moves beyond an appropriate Bluetooth proximity threshold, or the connection is lost, AURORA provides a distinct vibration and light alert.
 
 The purpose is simple:
 
@@ -46,92 +55,97 @@ The purpose is simple:
 
 AURORA V1 intentionally avoids unnecessary functions.
 
-No display.  
-No clock.  
-No health dashboard.  
-No continuous health monitoring.
+The first reference does not require:
 
-The initial reference focuses on:
+- Health tracking
+- Heart-rate sensing
+- SpO2 sensing
+- Sleep tracking
+- Display
+- Clock
+- Complex gesture control
 
-- Bluetooth Low Energy
-- tactile vibration
-- low power consumption
-- long battery life
-- minimal physical size
-- simple smartphone connectivity
+The initial design priority is:
 
-The goal is to explore whether a connected ring can remain closer in form to an ordinary ring than to a miniature smartwatch.
+**Make the wearable simple enough to feel like a ring.**
+
+---
+
+## Public Concept Direction
+
+The public AURORA concept may explore:
+
+- A slim everyday ring form
+- Tactile alerts
+- A single emerald light diffuser
+- Phone separation awareness
+- Incoming call awareness
+- Owner-carried continuity
+- Interchangeable outer-shell concepts
+- Multiple ring sizes through passive mechanical sizing components
+
+These are public concept directions, not frozen production specifications.
 
 ---
 
 ## Relationship to M-PIN
 
-AURORA may eventually become more than an alert device.
+AURORA is not intended to replace M-PIN.
 
-Future experiments may explore:
+It explores whether a future wearable device could become one physical interface for Owner-controlled identity, continuity, and portable state.
 
-- Owner authentication
-- encrypted identity keys
-- portable M-PIN state
-- device authorization
-- secure AI continuity
-- WEEDY interaction
-- Owner-controlled health state
+The AI service may change.
 
-AURORA does not necessarily need to contain the Owner's entire dataset.
+The smartphone may change.
 
-It may instead carry the cryptographic keys, permissions, minimum state, or identity required to access Owner-controlled M-PIN data.
+The physical device may change.
+
+**The Owner's continuity should remain with the Owner.**
 
 ---
 
-## Relationship to Project WEEDY
+## Public / Non-Public Boundary
 
-Project WEEDY explores M-PIN continuity through a physical AI companion.
+Project AURORA is intentionally developed with a public concept layer and a non-public implementation layer.
 
-Project AURORA explores M-PIN continuity through a wearable device.
+### Public
 
-**WEEDY can accompany the Owner.**
+The following may be openly documented:
 
-**AURORA can remain physically with the Owner.**
+- Project purpose
+- User experience goals
+- High-level feature concepts
+- Concept renders
+- Public reference architecture
+- M-PIN relationship
+- Prototype status
+- Public development history
 
-Together, they explore two different physical interfaces for Owner-controlled AI continuity.
+### Intentionally Non-Public
 
----
+The following may remain private during development:
 
-## Possible Development Path
+- Exact mechanical dimensions and tolerances
+- PCB layout
+- Battery specifications and suppliers
+- RF tuning details
+- Antenna implementation
+- Waterproofing and sealing process details
+- Size-insert locking geometry
+- Assembly-jig design
+- Manufacturing partners
+- Supplier pricing
+- Production negotiation records
+- Security-sensitive implementation details
 
-### V1 — Connection
-- Incoming call vibration
-- Smartphone separation vibration
-
-### V2 — Care
-Possible future exploration:
-- movement sensing
-- heart rate
-- SpO₂
-- sleep state
-- safety monitoring
-- WEEDY care integration
-
-### V3 — Portable M-PIN
-Possible future exploration:
-- encrypted Owner identity
-- M-PIN key storage
-- portable Current State
-- AI and device authentication
-- continuity across devices and assistants
+This boundary allows AURORA to remain inspectable as a public reference project without exposing unnecessary manufacturing or security-sensitive details.
 
 ---
 
 ## Status
 
-**CONCEPT STAGE / PHYSICAL REFERENCE**
+**Concept / Early Prototype Stage**
 
-AURORA is currently a research and prototyping project.
+AURORA is currently a reference project and is not a production device, medical device, certified safety product, or commercially released product.
 
-Hardware, software architecture, connectivity methods, security mechanisms, and future capabilities may change.
-
----
-
-**M-PIN**  
-*Your AI, On You.*
+Hardware, dimensions, connectivity methods, materials, security mechanisms, and implementation details may change as the project develops.
