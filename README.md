@@ -2,7 +2,12 @@
 
 **Owner-controlled persistent data architecture for service-independent
 digital continuity**
+## Concept Overview
 
+![M-PIN Concept Overview](./mpin_concept_overview.png)
+
+> Concept visualization — implementation details intentionally omitted.
+> 
 M-PIN is an architecture in which the **Owner retains persistent
 ownership of their data**, while external services — called **Friends**
 — continue to operate through their own runtime, user experience, and
