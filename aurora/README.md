@@ -11,7 +11,19 @@ AURORA explores whether Owner-controlled identity, continuity, and personal stat
 AURORA is a project name, not a commercial product name.
 
 ---
+## AURORA V2 — Concept Design v1.0
 
+![AURORA V2 Concept](./aurora_v2_concept_en.png)
+
+**Elegant Ring, Clear Alerts.**
+
+AURORA V2 explores a jewelry-first smart ring featuring a gold-like hidden notification display, tactile incoming-call alerts, BLE-based phone separation awareness, and a dedicated charging dock.
+
+The concept prioritizes elegant everyday wear, a slim profile, and a discreet rectangular color display that becomes visible only when an alert occurs.
+
+> **Concept design — not a production device.** Dimensions, materials, battery life, waterproofing, wireless performance, and manufacturing feasibility remain subject to engineering validation.
+
+---
 ## AURORA V1 Concept
 
 ![AURORA V1 Concept](./aurora_v1_concept.png)
