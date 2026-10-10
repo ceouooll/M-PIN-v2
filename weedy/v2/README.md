@@ -1,5 +1,9 @@
 # WEEDY V2 — Personal AI Companion
 
+## WEEDY V2 Concept Design
+
+![WEEDY V2 Concept](./weedy_v2_concept.png)
+
 **Concept Design | October 2026**
 
 > WEEDY V2 is a concept-stage home AI companion robot. The design, dimensions, features, and specifications are preliminary and subject to engineering validation.
